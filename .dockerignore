@@ -1,0 +1,22 @@
+# 文件：.dockerignore
+# 作用：Docker 构建上下文过滤
+# 默认排除所有文件，再只放行编译所需源码和指定配置，避免携带日志、令牌与交付大文件。
+# 由 docker build 自动读取；真正的镜像构建步骤在 Dockerfile。
+
+*
+!CMakeLists.txt
+!package.xml
+!include/
+!include/**
+!src/
+!src/**
+!tests/
+!tests/**
+!third_party/
+!third_party/**
+!config/
+!config/decision_config.json
+!launch/
+!launch/**
+!tools/
+!tools/container_entrypoint.sh
