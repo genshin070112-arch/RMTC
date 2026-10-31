@@ -1,0 +1,15 @@
+# 文件：.gitignore
+# 作用：Git 忽略规则
+# 由 Git 使用，用于排除构建产物、运行日志和本地配置等；不参与比赛逻辑。
+# 首次分享前仍应人工检查暂存内容，忽略规则不删除已经跟踪的文件。
+
+/build/
+/install/
+/log/
+/logs/
+/.secrets/
+/.env
+*.tar
+*.tar.gz
+__pycache__/
+*.pyc
