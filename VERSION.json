@@ -1,0 +1,19 @@
+{
+  "project": "RMTC C++ contestant",
+  "version": "1.1.4",
+  "date": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "language": "C++17",
+  "binary_sha256": "c9b0bfced6038349c1bd337d5904ba637fb34390a975ca32fe82d7c12f18aa67",
+  "image_id": "sha256:2346b67ae519d73f3b75dc34405636ee6c066a336cfcc2a56002f8122693e893",
+  "nlohmann_version": "3.11.3",
+  "nlohmann_sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6",
+  "real_llm_verified": false,
+  "formal_network_verified": false,
+  "official_submission_done": false,
+  "rules_version": "1.1",
+  "protocol_version": "1.1",
+  "verification_report": "docs/自检报告.md",
+  "colcon_build_verified": true,
+  "followup_verification": "evidence/fourth_report_20261025/summary.json"
+}

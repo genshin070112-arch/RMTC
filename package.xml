@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+  文件：package.xml
+  作用：ROS2 功能包清单
+  声明包名 rmtc_bot、版本、许可证及 ROS2/libcurl 构建运行依赖。
+  由 ament/colcon 和 ROS2 包工具读取；实际源文件与编译规则在 CMakeLists.txt。
+-->
+<package format="3">
+  <name>rmtc_bot</name><version>1.1.4</version>
+  <description>RMTC C++17 autonomous contestant using official public interfaces</description>
+  <maintainer email="local@example.invalid">RMTC contestant</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend><depend>std_msgs</depend><depend>libcurl4-openssl-dev</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

@@ -1,0 +1,206 @@
+Internal ctest changing into directory: /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build
+UpdateCTestConfiguration  from :/home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/CTestConfiguration.ini
+Parse Config file:/home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/CTestConfiguration.ini
+ Add coverage exclude regular expressions.
+UpdateCTestConfiguration  from :/home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/CTestConfiguration.ini
+Parse Config file:/home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/CTestConfiguration.ini
+Test project /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: rmtc_core_tests
+
+1: Test command: /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/test_core
+1: Test timeout computed to be: 1500
+1: PASS all_81_offsets
+1: PASS absolute_three_hand_examples
+1: PASS edge_grid_not_cropped
+1: PASS bad_grid_lengths_and_characters
+1: PASS grid_multiple_targets_rejected
+1: PASS json_duplicates_rejected
+1: PASS json_nonfinite_rejected
+1: PASS tick_boolean_and_negative_rejected
+1: PASS wrong_seat_rejected
+1: PASS entity_outside_map_rejected
+1: PASS radius_shrink_and_boolean
+1: PASS entity_null_team_safe_rejection
+1: PASS schema_fields_missing_safe_rejection
+1: PASS score_and_mission_schema
+1: PASS stage1_only_move_wait
+1: PASS dead_only_wait
+1: PASS protected_cannot_attack
+1: PASS invalid_direction_fallback
+1: PASS action_echoes_exact_session_tick
+1: PASS repeat_tick_replays_without_advancing
+1: PASS old_tick_ignored
+1: PASS session_reset_clears_world_and_old_session
+1: PASS final_state_does_not_publish
+1: PASS respawn_uses_absolute_position
+1: PASS resources_disappear_when_visible_absent
+1: PASS enemy_memory_is_current_only
+1: PASS resource_next_step_and_obstacle_avoidance
+1: PASS nearest_resource_collected_first
+1: PASS dynamic_reach_mission_not_hardcoded
+1: PASS visible_enemy_attack_can_cross_wall
+1: PASS protected_nearer_enemy_blocks_far_target
+1: PASS model_wrong_session_and_oob_rejected
+1: PASS model_bad_kind_and_time_rejected
+1: PASS event_prose_never_interpreted_locally
+1: PASS explosion_inclusive_rect_exclusive_end
+1: PASS illusion_activation_only_persists_after_leave
+1: PASS illusion_reverses_move_not_attack
+1: PASS purity_avoids_defending_enemy
+1: PASS escape_before_explosion_activation
+1: PASS temporary_wall_expires_static_wall_kept
+1: PASS stale_async_result_rejected
+1: PASS strategy_enum_enforced
+1: PASS gateway_url_boundary
+1: PASS missing_token_fails_without_network
+1: PASS decision_config_rejects_extra_instructions
+1: PASS all_8_event_types_validate
+1: PASS pan_requires_successful_move_next_tick_and_absolute_expiry
+1: PASS angel_successful_entry_only_and_persists_after_point_end
+1: PASS unrivaled_requires_continuous_stay_then_survives_death
+1: PASS pepper_point_not_self_damage_or_global_line_guess
+1: PASS world_split_blocks_full_line_except_spawn
+1: PASS defend_is_valid_stage2_fallback
+1: PASS late_join_does_not_invent_spawn
+1: PASS v11_avoid_mutual_death_when_defense_survives
+1: PASS v11_pepper_kill_has_tactical_value
+1: PASS v11_damage_task_not_fixed_to_default_three_missions
+1: PASS v11_score_snapshot_can_drop_without_double_deduction
+1: PASS v11_effective_damage_fractional_and_no_score_cap
+1: RESULT 58 passed, 0 failed
+1/5 Test #1: rmtc_core_tests ..................   Passed    0.02 sec
+test 2
+    Start 2: rmtc_gateway_tests
+
+2: Test command: /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/test_gateway
+2: Test timeout computed to be: 1500
+2: PASS third_report_48_success_budget_is_enforced_without_silent_extra_calls
+2: PASS partial_retry_publishes_only_final_facts
+2: PASS partial_retry_terminal_partial_published_once
+2: PASS fixture_http_to_action_angel
+2: PASS fixture_http_to_action_unrivaled
+2: PASS fixture_http_to_action_explosion
+2: PASS http_payload_auth_and_content_length
+2: PASS success_budget_and_lifetime_not_session
+2: PASS v11_worker_forwards_latest_score_snapshot
+2: PASS malformed_2xx_still_consumes_quota
+2: PASS quota_exceeded_terminal
+2: PASS rate_limit_retryable
+2: PASS 401_disables_token
+2: PASS redirect_not_followed
+2: PASS timeout_bounded
+2: PASS 500_non_json_handled
+2: PASS worker_nonblocking_and_deduplicated
+2: PASS stale_inflight_session_discarded
+2: PASS worker_retry_survives_repeated_perceptions
+2: PASS long_utf8_notice_valid_and_deduplicated
+2: PASS missing_token_then_refresh_same_notice
+2: PASS 401_then_refresh_same_notice
+2: PASS successful_notice_stays_deduplicated_after_token_rotation
+2: PASS schema_error_retries_then_succeeds
+2: PASS schema_retries_are_bounded_even_with_continuous_frames
+2: RESULT 25 passed, 0 failed
+2/5 Test #2: rmtc_gateway_tests ...............   Passed   10.93 sec
+test 3
+    Start 3: rmtc_v11_scoring_tests
+
+3: Test command: /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/test_scoring
+3: Test timeout computed to be: 1500
+3: PASS 500_full_score_and_uncapped_tiebreak
+3: PASS add_all_credits_before_death_floor
+3: PASS overkill_proportional_and_shared_reward
+3: PASS same_source_deduplicated_for_kill
+3: PASS zero_damage_has_no_reward
+3: PASS previous_tick_attacker_excluded
+3: PASS mutual_kill_award_then_deduct
+3: PASS reflection_shares_single_reward_without_attack_credit
+3: PASS pepper_same_batch_dedup_and_no_attack_credit
+3: PASS pepper_mutually_lethal_lines_still_share_batch
+3: PASS combat_dead_not_awarded_again_in_pepper
+3: PASS already_dead_source_does_not_trigger_new_fire
+3: PASS environment_has_no_kill_award
+3: PASS basic_attack_nearest_protected_blocks
+3: PASS attacks_before_move_no_dodge_by_move
+3: PASS purity_defense_can_earn_kill_without_raw_credit
+3: PASS purity_attack_risk_uses_last_defense_as_uncertain
+3: PASS pepper_hp_loss_never_ordinary_credit
+3: PASS pepper_nonlethal_does_not_add_score
+3: PASS pepper_wait_or_protected_target_no_reward
+3: PASS dead_before_movement_cannot_trigger_pepper
+3: PASS damage_mission_above500_and_completed_id_persists
+3: PASS mission_utility_only_if_survives_after_deduction
+3: PASS prediction_never_mutates_authoritative_score
+3: RESULT 24 passed, 0 failed
+3/5 Test #3: rmtc_v11_scoring_tests ...........   Passed    0.00 sec
+test 4
+    Start 4: rmtc_review_rules_tests
+
+4: Test command: /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/test_review_rules
+4: Test timeout computed to be: 1500
+4: PASS split_expiry_keeps_currently_visible_original_wall
+4: PASS split_expiry_removes_unseen_temporary_wall_keeps_known_static
+4: PASS angel_late_notice_restores_still_active_gain
+4: PASS angel_late_notice_retention_uses_acquisition_window
+4: PASS angel_notice_at_effect_expiry_does_not_revive_healing
+4: RESULT 5 passed, 0 failed
+4/5 Test #4: rmtc_review_rules_tests ..........   Passed    0.00 sec
+test 5
+    Start 5: rmtc_report_tests
+
+5: Test command: /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build/test_report
+5: Test timeout computed to be: 1500
+5: PASS healthy_multi_enemy_does_not_pay_speculative_wait_penalty
+5: PASS patrol_does_not_erase_unproductive_pursuit
+5: PASS third_report_escape_rotations_health_and_score
+5: PASS third_report_healing_after_current_combat
+5: PASS third_report_search_line_and_diagonal_distinguished
+5: PASS third_report_future_risk_respects_kills_protection_and_boost_geometry
+5: PASS third_report_last_tick_has_no_imaginary_future
+5: PASS third_report_fortress_end_exclusive_requires_attack_window
+5: PASS third_report_healthy_can_attack_and_lethal_move_cannot_escape
+5: PASS second_report_nonlethal_blast_not_discounted_by_depth
+5: PASS second_report_two_step_escape_without_other_goals
+5: PASS second_report_full_combat_explores_instead_of_chasing
+5: PASS second_report_protected_enemy_not_chased
+5: PASS second_report_protected_enemy_does_not_force_defense
+5: PASS second_report_critical_healing_competes_with_resource
+5: PASS second_report_healthy_resource_still_beats_healing
+5: PASS second_report_fortress_progress_not_restarted_each_tick
+5: PASS second_report_provisional_model_not_ingested
+5: PASS stalled_pursuit_yields_to_exploration_then_allows_attack
+5: PASS damage_task_does_not_circle_attackable_enemy
+5: PASS balanced_compares_resource_task_with_attack
+5: PASS defense_competes_with_distant_resource
+5: PASS last_tick_adjacent_resource
+5: PASS last_tick_adjacent_reach
+5: PASS weighted_cost_is_not_event_time
+5: PASS path_accumulates_announced_damage
+5: PASS temporary_block_expires_before_arrival
+5: PASS state_error_does_not_invent_obstacle
+5: PASS missing_target_mission_isolated
+5: PASS model_exact_integral_float
+5: PASS model_fence_whitespace_crlf
+5: PASS model_partial_valid_events_preserved
+5: PASS pan_missing_window_does_not_extend_to30
+5: PASS angel_effect_includes_trigger_tick
+5: PASS successful_move_before_death_kept
+5: PASS explosion_one_activation_tick
+5: PASS stale_goal_uses_latest_controller_tick
+5: PASS deep_json_rejected_without_recursion_crash
+5: RMTC audit unavailable; local actions remain enabled; file evidence will be incomplete
+5: PASS log_directory_failure_is_degraded_not_fatal
+5: PASS fortress_corner_counts_as_inside
+5: PASS expired_angel_acquisition_not_chased
+5: RESULT 41 passed, 0 failed
+5/5 Test #5: rmtc_report_tests ................   Passed    0.18 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =  11.15 sec

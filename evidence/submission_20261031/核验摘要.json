@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-31",
+  "source_version": "1.1.4",
+  "binary_sha256": "c9b0bfced6038349c1bd337d5904ba637fb34390a975ca32fe82d7c12f18aa67",
+  "tests_named": 153,
+  "tests_failed": 0,
+  "session_id": "practice-1224c8a51cd84bb8ac14ed409d08ebbd",
+  "action_tick": 29,
+  "receipt_frame_tick": 30,
+  "same_session_and_action_verified": true,
+  "final_status": {
+    "tick": 100,
+    "max_ticks": 100,
+    "ready": true,
+    "paused": false,
+    "finished": true,
+    "fault": ""
+  },
+  "board": {
+    "tick": 100,
+    "action_tick": 99,
+    "stage": 1,
+    "session_id": "practice-1224c8a51cd84bb8ac14ed409d08ebbd",
+    "teams": [
+      {
+        "team": "A",
+        "team_name": "又猪又区队",
+        "score": 40.0,
+        "resource_value": 200.0,
+        "effective_damage": 0.0,
+        "mission_completed": 0,
+        "invalid_actions": 0,
+        "hp": 100,
+        "alive": true
+      }
+    ],
+    "map_view": {
+      "map": {
+        "height": 18,
+        "width": 18
+      },
+      "obstacles": [
+        [
+          3,
+          11
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          14,
+          6
+        ]
+      ],
+      "resources": [],
+      "robots": [
+        {
+          "team": "A",
+          "position": [
+            4,
+            8
+          ],
+          "hp": 100,
+          "alive": true
+        }
+      ]
+    }
+  },
+  "frames": 101,
+  "actions_and_receipts_matched": 100,
+  "final_frame_no_action": true
+}

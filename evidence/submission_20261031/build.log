@@ -1,0 +1,50 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuanzh/文档/ChatGPT/视觉学习/work/technical_report_20261031/build
+[  3%] Building CXX object CMakeFiles/rmtc_core.dir/src/protocol.cpp.o
+[  7%] Building CXX object CMakeFiles/rmtc_core.dir/src/events.cpp.o
+[ 10%] Building CXX object CMakeFiles/rmtc_core.dir/src/world.cpp.o
+[ 14%] Building CXX object CMakeFiles/rmtc_core.dir/src/planner.cpp.o
+[ 17%] Building CXX object CMakeFiles/rmtc_core.dir/src/controller.cpp.o
+[ 21%] Building CXX object CMakeFiles/rmtc_core.dir/src/prompts.cpp.o
+[ 25%] Building CXX object CMakeFiles/rmtc_core.dir/src/gateway.cpp.o
+[ 28%] Building CXX object CMakeFiles/rmtc_core.dir/src/config.cpp.o
+[ 32%] Building CXX object CMakeFiles/rmtc_core.dir/src/audit.cpp.o
+[ 35%] Building CXX object CMakeFiles/rmtc_core.dir/src/scoring.cpp.o
+[ 39%] Building CXX object CMakeFiles/rmtc_core.dir/src/tactics.cpp.o
+[ 42%] Linking CXX static library librmtc_core.a
+[ 42%] Built target rmtc_core
+[ 46%] Building CXX object CMakeFiles/rmtc_node.dir/src/node.cpp.o
+[ 50%] Building CXX object CMakeFiles/test_core.dir/tests/test_core.cpp.o
+[ 53%] Linking CXX executable test_core
+[ 53%] Built target test_core
+[ 57%] Building CXX object CMakeFiles/test_gateway.dir/tests/test_gateway.cpp.o
+[ 60%] Linking CXX executable rmtc_node
+[ 60%] Built target rmtc_node
+[ 64%] Linking CXX executable test_gateway
+[ 67%] Building CXX object CMakeFiles/test_scoring.dir/tests/test_scoring.cpp.o
+[ 67%] Built target test_gateway
+[ 71%] Building CXX object CMakeFiles/test_review_rules.dir/tests/test_review_rules.cpp.o
+[ 75%] Linking CXX executable test_review_rules
+[ 75%] Built target test_review_rules
+[ 78%] Building CXX object CMakeFiles/test_report.dir/tests/test_report.cpp.o
+[ 82%] Linking CXX executable test_scoring
+[ 82%] Built target test_scoring
+[ 85%] Building CXX object CMakeFiles/referee_probe.dir/tests/referee_probe.cpp.o
+[ 89%] Linking CXX executable test_report
+[ 89%] Built target test_report
+[ 92%] Building CXX object CMakeFiles/ros_fault_probe.dir/tests/ros_fault_probe.cpp.o
+[ 96%] Linking CXX executable referee_probe
+[ 96%] Built target referee_probe
+[100%] Linking CXX executable ros_fault_probe
+[100%] Built target ros_fault_probe
